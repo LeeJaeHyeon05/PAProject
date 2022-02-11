@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_choose_disney.xml" value="0.34057971014492755" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_intro.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_marvel.xml" value="0.34057971014492755" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_princes_disney.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_splash.xml" value="0.22" />
       </map>
