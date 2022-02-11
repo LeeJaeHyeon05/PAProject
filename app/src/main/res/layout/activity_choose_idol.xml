@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseIdolActivity">
+
+    <TextView
+        android:id="@+id/logoNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/appNameText"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/chooseBoyImgView"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/showImgText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/boy_idol"/>
+
+    <ImageView
+        android:id="@+id/chooseGirlImgView"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:contentDescription="@string/showImgText"
+        app:layout_constraintBottom_toBottomOf="@+id/chooseBoyImgView"
+        app:layout_constraintStart_toEndOf="@+id/chooseBoyImgView"
+        app:layout_constraintTop_toTopOf="@+id/chooseBoyImgView"
+        android:background="@drawable/intro_iu"/>
+
+    <Button
+        android:id="@+id/boyChooseBtn"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/choose_btn_bg"
+        app:layout_constraintEnd_toEndOf="@+id/chooseBoyImgView"
+        app:layout_constraintStart_toStartOf="@+id/chooseBoyImgView"
+        app:layout_constraintTop_toBottomOf="@+id/chooseBoyImgView"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/boyChooseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/boyChooseBtn"
+        app:layout_constraintTop_toTopOf="@+id/boyChooseBtn"
+        app:layout_constraintEnd_toEndOf="@+id/boyChooseBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/boyChooseBtn"
+        android:fontFamily="@font/gugi"
+        android:textSize="23sp"
+        android:text="@string/boyIdolText"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/girlChooseBtn"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/choose_btn_bg"
+        app:layout_constraintEnd_toEndOf="@+id/chooseGirlImgView"
+        app:layout_constraintStart_toStartOf="@+id/chooseGirlImgView"
+        app:layout_constraintTop_toBottomOf="@+id/chooseGirlImgView"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/girlChooseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/girlChooseBtn"
+        app:layout_constraintTop_toTopOf="@+id/girlChooseBtn"
+        app:layout_constraintEnd_toEndOf="@+id/girlChooseBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/girlChooseBtn"
+        android:fontFamily="@font/gugi"
+        android:textSize="23sp"
+        android:text="@string/girlIdolText"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,13 +10,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PAProject">
         <activity
-            android:name=".MainActivity"
+            android:name=".disney.AnimalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.PrinceDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.ChooseDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.PrincesDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idol.GirlIdolAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idol.BoyIdolAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseIdolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GirlActorAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoyActorAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".IntroActivity">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 
