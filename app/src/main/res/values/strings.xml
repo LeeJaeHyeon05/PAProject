@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PA project</string>
+    <string name="app_name">너의 이름은</string>
 
     <string name="introNameText">너의 이름은</string>
     <string name="introExplainText">인공지능 얼군 분석을 \n 활용해 닮은 꼴을 \n 찾아보세요</string>
