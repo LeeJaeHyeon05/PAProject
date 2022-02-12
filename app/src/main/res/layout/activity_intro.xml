@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/introMainImgView"
+        android:layout_width="420dp"
+        android:layout_height="190dp"
+        android:background="@drawable/intro_main_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/introPicture" />
+
+    <TextView
+        android:id="@+id/introNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gugi"
+        android:text="@string/introNameText"
+        android:textColor="@color/introNameTextColor"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introMainImgView" />
+
+    <TextView
+        android:id="@+id/introExplainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/introExplainText"
+        android:textAlignment="textEnd"
+        android:textColor="@color/introExplainColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introNameTextView" />
+
+    <ImageView
+        android:id="@+id/introIronMan"
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/intro_iron_man"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introMainImgView"
+        android:contentDescription="@string/introPicture" />
+
+    <ImageView
+        android:id="@+id/introIU"
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/intro_iu"
+        app:layout_constraintStart_toEndOf="@+id/introIronMan"
+        app:layout_constraintTop_toTopOf="@+id/introIronMan"
+        android:contentDescription="@string/introPicture" />
+
+    <ImageView
+        android:id="@+id/introElsa"
+        android:layout_width="110dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/intro_elsa"
+        app:layout_constraintStart_toEndOf="@+id/introIU"
+        app:layout_constraintTop_toTopOf="@+id/introIU"
+        android:contentDescription="@string/introPicture" />
+
+    <Button
+        android:id="@+id/introNextButton"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        android:text="@string/introGoNextText"
+        android:background="@drawable/intro_round_bg"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:fontFamily="@font/gugi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

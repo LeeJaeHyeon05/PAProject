@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".disney.ChooseDisneyActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/logoNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/appNameText"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/princesImageButton"
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/choose_btn_bg"
+        android:contentDescription="@string/princesimageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoNameTextView" />
+
+    <TextView
+        android:id="@+id/princesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/princesText"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/princesImageButton"
+        app:layout_constraintStart_toStartOf="@+id/princesImageButton"
+        app:layout_constraintTop_toTopOf="@+id/princesImageButton" />
+
+    <ImageView
+        android:id="@+id/princesImageView"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/princesImageButton"
+        app:layout_constraintTop_toTopOf="@+id/princesImageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/princesImageButton"
+        android:background="@drawable/princes_disney"
+        android:contentDescription="@string/princesimageview"/>
+
+    <ImageButton
+        android:id="@+id/princeImageButton"
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/choose_btn_bg"
+        android:contentDescription="@string/princesimageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/princesImageButton" />
+
+    <TextView
+        android:id="@+id/princeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/princeText"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/princeImageButton"
+        app:layout_constraintStart_toStartOf="@+id/princeImageButton"
+        app:layout_constraintTop_toTopOf="@+id/princeImageButton" />
+
+    <ImageView
+        android:id="@+id/princeImageView"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/princeImageButton"
+        app:layout_constraintTop_toTopOf="@+id/princeImageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/princeImageButton"
+        android:background="@drawable/prince_disney"
+        android:contentDescription="@string/princesimageview"/>
+
+    <ImageButton
+        android:id="@+id/animalImageButton"
+        android:layout_width="370dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/choose_btn_bg"
+        android:contentDescription="@string/princesimageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/princeImageButton" />
+
+    <TextView
+        android:id="@+id/animalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6sp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/animalText"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="@+id/animalImageButton"
+        app:layout_constraintStart_toStartOf="@+id/animalImageButton"
+        app:layout_constraintTop_toTopOf="@+id/animalImageButton" />
+
+    <ImageView
+        android:id="@+id/animalImageView"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        app:layout_constraintEnd_toEndOf="@+id/animalImageButton"
+        app:layout_constraintTop_toTopOf="@+id/animalImageButton"
+        app:layout_constraintBottom_toBottomOf="@+id/animalImageButton"
+        android:background="@drawable/prince_disney"
+        android:contentDescription="@string/animalimage"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

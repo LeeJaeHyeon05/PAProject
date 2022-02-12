@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.paproject">
+    package="com.example.paproject" >
 
     <application
         android:allowBackup="true"
@@ -8,16 +8,59 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PAProject">
+        android:theme="@style/Theme.PAProject" >
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".mugShat.MugShatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nuisance.NuisanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".marvel.MarvelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.AnimalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.PrinceDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.ChooseDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".disney.PrincesDisneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idol.GirlIdolAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".idol.BoyIdolAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseIdolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GirlActorAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoyActorAnalyzeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IntroActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

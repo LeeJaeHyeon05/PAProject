@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">PA project</string>
+    <string name="app_name">너의 이름은</string>
+
+    <string name="introNameText">너의 이름은</string>
+    <string name="introExplainText">인공지능 얼군 분석을 \n 활용해 닮은 꼴을 \n 찾아보세요</string>
+    <string name="introPicture">인트로 사진</string>
+    <string name="introGoNextText">시작하기</string>
+    <string name="appNameText">너의 이름은</string>
+    <string name="idolPic">아이돌 사진</string>
+
+    <string name="mainIdolText">아이돌</string>
+    <string name="actorText">배우</string>
+    <string name="disneyText">디즈니</string>
+    <string name="marvelText">마블</string>
+    <string name="nuisanceText">민폐</string>
+    <string name="mugShat">머그샷</string>
+
+    <string name="showImgText">보여주기 사진</string>
+
+    <string name="boyActorText">남자\n배우</string>
+    <string name="girlActorText">여자\n배우</string>
+
+    <string name="nextDialogText">계속 하기</string>
+    <string name="checkText">확인 하기</string>
+    <string name="dialogExplainText">이것은 선택을 확인하기 위한 버튼입니다. \n취소를 원하시면 취소 하기 버튼을 \n계속 하시려면 계속 하기 버튼을 눌러주세요</string>
+    <string name="cancelText">취소 하기</string>
+
+
+    <string name="boyIdolText">남자\n아이돌</string>
+    <string name="girlIdolText">여자\n아이돌</string>
+    <string name="princesimageview">princesImageView</string>
+
+    <string name="princesText">프린\n세스</string>
+    <string name="princeText">프린스</string>
+    <string name="animalText">애니멀</string>
+    <string name="animalimage">animalImage</string>
 </resources>
