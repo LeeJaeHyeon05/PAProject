@@ -10,13 +10,10 @@ class BoyActorAnalyzeActivity : AppCompatActivity() {
     private var mBinding: ActivityBoyActorAnalyzeBinding? = null
     private val binding get() = mBinding!!
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         mBinding = ActivityBoyActorAnalyzeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
 
     }
 

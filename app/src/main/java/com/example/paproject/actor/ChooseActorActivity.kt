@@ -5,6 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
+import com.example.paproject.actor.AnalyzeActivity
 import com.example.paproject.databinding.ActivityChooseActorBinding
 import com.example.paproject.databinding.ActivityMainBinding
 
@@ -42,7 +43,9 @@ class ChooseActorActivity : AppCompatActivity() {
                 finish()
             })
             .setPositiveButton(R.string.nextDialogText, DialogInterface.OnClickListener { _, _ ->
-                startActivity(Intent(this, BoyActorAnalyzeActivity::class.java))
+                val goIntent = Intent(this, AnalyzeActivity::class.java)
+                goIntent.putExtra("type", "boy")
+                startActivity(goIntent)
             })
 
         val alert = dialogBuilder.create()
@@ -59,7 +62,9 @@ class ChooseActorActivity : AppCompatActivity() {
                 finish()
             })
             .setPositiveButton(R.string.nextDialogText, DialogInterface.OnClickListener { _, _ ->
-                startActivity(Intent(this, GirlActorAnalyzeActivity::class.java))
+                val goIntent = Intent(this, GirlActorAnalyzeActivity::class.java)
+                goIntent.putExtra("type", "girl")
+                startActivity(goIntent)
             })
         val alert = dialogBuilder.create()
         alert.setTitle(R.string.checkText)

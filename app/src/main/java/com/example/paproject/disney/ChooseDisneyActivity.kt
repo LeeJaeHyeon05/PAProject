@@ -36,8 +36,6 @@ class ChooseDisneyActivity : AppCompatActivity() {
         animalBtn.setOnClickListener {
             initAnimalDialog()
         }
-
-
     }
     //공주 다이얼로그
     private fun initPrincesDialog() {

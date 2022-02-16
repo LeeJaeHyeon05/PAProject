@@ -9,10 +9,20 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_marvel.xml" value="0.34057971014492755" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_princes_disney.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PAproject2/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_animal.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_boy_actor_analyze.xml" value="0.1875" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_choose_actor.xml" value="0.1875" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_choose_disney.xml" value="0.1875" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_girl_actor_analyze.xml" value="0.1875" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_intro.xml" value="0.1875" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_main.xml" value="0.2582496413199426" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_marvel.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_prince_disney.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/user/StudioProjects/PAProject/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

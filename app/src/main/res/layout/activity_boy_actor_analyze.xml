@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".BoyActorAnalyzeActivity">
 
+    <TextView
+        android:id="@+id/logoNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gugi"
+        android:text="@string/appNameText"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/actorAnalyzeCamera"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/logoNameTextView"
+        >
+
+    </ImageView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

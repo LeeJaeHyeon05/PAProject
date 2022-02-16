@@ -5,7 +5,7 @@
     <string name="introExplainText">인공지능 얼군 분석을 \n 활용해 닮은 꼴을 \n 찾아보세요</string>
     <string name="introPicture">인트로 사진</string>
     <string name="introGoNextText">시작하기</string>
-    <string name="appNameText">너의 이름은</string>
+    <string name="appNameText">너의 얼굴은</string>
     <string name="idolPic">아이돌 사진</string>
 
     <string name="mainIdolText">아이돌</string>
